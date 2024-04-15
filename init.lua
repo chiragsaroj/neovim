@@ -1,0 +1,2 @@
+require("chirag")
+print("Hello")
