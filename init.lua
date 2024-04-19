@@ -1,2 +1,2 @@
 require("chirag")
-print("Hello")
+print("Welcome Lord Chirag 👑")
