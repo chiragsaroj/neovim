@@ -11,7 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("chirag.plugins", {
+require("lazy").setup({{ import = "chirag.plugins" }, { import = "chirag.plugins.lsp"}}, {
   checker={
     enabled = true,
     notify = false
